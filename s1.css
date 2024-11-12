@@ -1,0 +1,151 @@
+
+
+/* #full {
+    width: 100%;
+    height: auto;
+
+}
+
+#inner_full {
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+
+#header {
+    width: 100%;
+    height: 50px;
+    background-color: red;
+    color:white;
+}
+
+#body {
+    width: 100%;
+    height: 400px;
+}
+
+#footer {
+    width: 100%;
+    height: 50px;
+    background-color: red;
+    color: white;
+} */
+
+
+/* ul li{
+    width: 20%;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 55px;
+    background: red;
+    color: white;
+    float: left;
+    border-radius: 10px;
+    text-align: center;
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+#form{
+    width: 80%;
+    height: 250px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+} */
+/* List item styles */
+
+
+/* Set basic styles for the page */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8; /* Light gray background */
+}
+
+/* Container styles */
+#full {
+    width: 100%;
+    height: 100vh; /* Set height to 100% of the viewport height */
+    display: flex;
+    flex-direction: column; /* Arrange children vertically */
+}
+
+#inner_full {
+    width: 80%;
+    height: auto;
+    max-width: 1200px; /* Maximum width of the content */
+    margin: auto;
+}
+
+/* Header styles */
+#header {
+    height: 60px;
+    background-color: red; /* Red background */
+    color: white;
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+}
+
+/* Navigation styles */
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+ul li {
+    width: 20%;
+    height: 60px;
+    line-height: 60px;
+    margin-left: 20px; /* Increased spacing between items */
+    background-color: red; /* Red background */
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+ul li:hover {
+    background-color: #c0392b; /* Darker red on hover */
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    display: block; /* Ensure links fill entire list item */
+    height: 100%; /* Fill entire height of list item */
+}
+
+/* Body styles */
+#body {
+    flex: 1; /* Take up remaining space */
+    background-color: white;
+    padding: 20px; /* Add some padding */
+}
+
+/* Form styles */
+#form {
+    width: 80%;
+    max-width: auto; /* Max width for responsiveness */
+    margin: 0 auto; /* Center horizontally */
+    padding: 20px; /* Add padding */
+    background-color: red; /* Red background */
+    color: white;
+    border-radius: 10px;
+}
+
+/* Footer styles */
+#footer {
+    height: 60px;
+    background-color: red; /* Red background */
+    color: white;
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+}

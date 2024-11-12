@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+body{
+    background-color: #e9f5fc;
+    color: #333;
+    font-size: 16px;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #008080;
+    padding: 20px 40px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#header-title {
+    position: absolute; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    text-align: center;
+}
+
+#header a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+
+
+#nav-bar {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: auto;
+}
+
+.nav-button {
+    background-color: #00796b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-button:hover {
+    background-color: #004d40;
+    transform: translateY(-3px);
+}
+
+#logout-button {
+    background-color: #cc7373;
+    transition: background-color 0.3s ease;
+}
+
+#logout-button:hover {
+    background-color: #b71c1c;
+}
+
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#full {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+
+#inner_full {
+    padding: 20px;
+}
+
+
+#body {
+    padding: 20px;
+}
+
+#body h1 {
+    color: #006666;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-size: 16px;
+}
+
+th {
+    background-color: #008080;
+    color: white;
+    font-weight: bold;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+tr:nth-child(even) td {
+    background-color: #e0f7fa;
+}
+
+
+#footer {
+    background-color: #008080;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+#footer h4 {
+    margin: 0;
+}
+
+#footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#footer a:hover {
+    text-decoration: underline;
+}

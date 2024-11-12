@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+body{
+    background-color: #e9f5fc;
+    color: #333;
+    font-size: 16px;
+}
+
+
+#header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    /* width: 100%; */
+    background-color: #008080;
+    padding: 20px 40px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#header-title {
+    position: absolute; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    text-align: center;
+}
+
+#header a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+
+#header-title {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+
+#nav-bar {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: auto;
+}
+
+.nav-button {
+    background-color: #00796b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-button:hover {
+    background-color: #004d40;
+    transform: translateY(-3px);
+}
+
+#logout-button {
+    background-color: #cc7373;
+    transition: background-color 0.3s ease;
+}
+
+#logout-button:hover {
+    background-color: #b71c1c;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#body-content {
+    background-color: #ffffff;
+    width: 90%;
+    max-width: 800px;
+    padding: 30px;
+    margin-top: 50px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#body-content h1 {
+    color: #006666;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-size: 16px;
+}
+
+th {
+    background-color: #008080;
+    color: white;
+    font-weight: bold;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+tr:nth-child(even) td {
+    background-color: #e0f7fa;
+}
+
+
+#footer {
+    margin-top: 40px;
+    text-align: center;
+    color: #555;
+    font-size: 14px;
+}
+
+#footer h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #006666;
+}
+
+#logout-link {
+    color: #008080;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#logout-link:hover {
+    text-decoration: underline;
+}
